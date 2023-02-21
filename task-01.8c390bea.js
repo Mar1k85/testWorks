@@ -1,0 +1,2 @@
+!function(){var e=document.querySelectorAll(".item");console.log("Number of categories:",e.length);var l=!0,t=!1,o=void 0;try{for(var n,r=e[Symbol.iterator]();!(l=(n=r.next()).done);l=!0){var a=n.value,i=a.firstElementChild.textContent,c=a.lastElementChild.children.length;console.log("Category:",i),console.log("Elements:",c)}}catch(e){t=!0,o=e}finally{try{l||null==r.return||r.return()}finally{if(t)throw o}}}();
+//# sourceMappingURL=task-01.8c390bea.js.map
