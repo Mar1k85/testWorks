@@ -1,0 +1,2 @@
+!function(){var t={DecrBtn:document.querySelector('[data-action="decrement"]'),IncrBrn:document.querySelector('[data-action="increment"]'),textOutput:document.querySelector("#value")},e=0;t.DecrBtn.addEventListener("click",(function(){e-=1,t.textOutput.textContent=e})),t.IncrBrn.addEventListener("click",(function(){e+=1,t.textOutput.textContent=e}))}();
+//# sourceMappingURL=task-04.b5d51c85.js.map
